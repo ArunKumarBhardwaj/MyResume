@@ -70,11 +70,16 @@ cv:
           - Built MyDoormat tenant/landlord apps in React Native, supporting 3 distinct user roles (Tenant, Landlord, Admin).
           - Enabled real-time chat via Twilio SDK between landlords and tenants.
           - Configured Branch.io deep linking to automate tenant invitations; set up Stripe-powered automated monthly rent and lease payments.
-      - name: JOBR POS
+      - name: Swivics
         highlights:
-          - Built a multi-role JOBR POS suite (POS, Customer, Driver apps) using React Native for in-store staff and delivery operations.
-          - Deployed Google Maps live driver tracking for real-time dispatch and delivery monitoring.
-          - Set up Stripe for secure in-store checkout and customer payments; designed tab-based navigation for multi-role workflows.
+          - Architected the corporate mobility platform in Expo with automated scheduling and recurring ride management.
+          - Designed a resilient background location service that bypasses Android Doze mode and OEM battery optimizations, achieving reliable tracking uptime.
+          - Created smooth map animations via custom coordinate interpolation for driver markers, and resolved Always Allow location permission failures across Samsung, Xiaomi, and Oppo devices.
+      - name: Mergata (Diaspora)
+        highlights:
+          - Built a community app for the Albanian diaspora covering border wait times, rideshares, jobs, and housing using React Native and Expo.
+          - Implemented geofencing in Expo to detect proximity to border crossings and prompt travelers for real-time wait-time reports.
+          - Integrated interactive maps visualizing border checkpoints, live queue lengths, and crowdsourced crossing-time estimates.
     skills:
       - label: Mobile Development
         details: React Native, Expo, EAS, React Navigation, Redux, Zustand, Context API, Custom Native Modules, Config Plugins, iOS, Android, Xcode, Android Studio, Push Notifications, Deep Linking
