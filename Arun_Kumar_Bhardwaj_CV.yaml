@@ -6,9 +6,10 @@ cv:
   email: bhardwajarun38@gmail.com
   phone: "+918859099380"
   website: https://arunbhardwaj.vercel.app
-  social_networks:
-    - network: LinkedIn
-      username: arun-bhardwaj-b1828b210
+  custom_connections:
+    - fontawesome_icon: linkedin
+      placeholder: LinkedIn
+      url: https://www.linkedin.com/in/arun-bhardwaj-b1828b210
   sections:
     summary:
       - React Native & Expo Developer with 3.8 years of full-time experience (5 years total including freelance), delivering cross-platform iOS and Android apps with TypeScript, Redux/state management, REST APIs, and CI/CD release pipelines. Strong collaborator who mentors peers, communicates clearly with stakeholders, and owns end-to-end feature delivery from architecture through App Store and Play Store releases.
