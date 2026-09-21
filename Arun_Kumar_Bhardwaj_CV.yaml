@@ -50,6 +50,17 @@ cv:
           - Managed full App Store and Play Store release process for 2 client apps, including asset preparation, submission, and deployment governance.
           - Collaborated with designers and stakeholders on UI/UX implementation, state management, and REST API integrations.
     projects:
+      - name: Mergata
+        location: "[Play Store](https://play.google.com/store/apps/details?id=com.mergata.ride.app) · [App Store](https://apps.apple.com/in/app/mergata/id6753675571)"
+        highlights:
+          - Built a community app for the Albanian diaspora covering border wait times, rideshares, jobs, and housing with React Native and Expo.
+          - Implemented geofencing in Expo to detect proximity to border crossings and prompt travelers for real-time wait-time reports.
+          - Integrated interactive maps visualizing border checkpoints, live queue lengths, and crowdsourced crossing-time estimates.
+      - name: Swivics
+        highlights:
+          - Architected the corporate mobility platform in Expo with automated scheduling and recurring ride management.
+          - Designed a resilient background location service that bypasses Android Doze mode and OEM battery optimizations, achieving reliable tracking uptime.
+          - Created smooth map animations via custom coordinate interpolation for driver markers, and resolved Always Allow location permission failures across Samsung, Xiaomi, and Oppo devices.
       - name: WedSuite
         highlights:
           - Directed WedSuite wedding planning app with React Native, Expo, and TypeScript for iOS and Android.
@@ -65,21 +76,6 @@ cv:
           - Constructed Instagram-like Reels & Stories using HLS video streaming and prefetching for zero-latency playback.
           - Deployed FFmpeg compression and a background upload service for large media files on React Native.
           - Incorporated IMGLY SDK for editing, WebSockets for real-time chat, and Firebase (FCM) push notifications.
-      - name: MyDoormat
-        highlights:
-          - Built MyDoormat tenant/landlord apps in React Native, supporting 3 distinct user roles (Tenant, Landlord, Admin).
-          - Enabled real-time chat via Twilio SDK between landlords and tenants.
-          - Configured Branch.io deep linking to automate tenant invitations; set up Stripe-powered automated monthly rent and lease payments.
-      - name: "[Mergata](https://play.google.com/store/apps/details?id=com.mergata.ride.app)"
-        highlights:
-          - Built a community app for the Albanian diaspora covering border wait times, rideshares, jobs, and housing ([Play Store](https://play.google.com/store/apps/details?id=com.mergata.ride.app) · [App Store](https://apps.apple.com/in/app/mergata/id6753675571)).
-          - Implemented geofencing in Expo to detect proximity to border crossings and prompt travelers for real-time wait-time reports.
-          - Integrated interactive maps visualizing border checkpoints, live queue lengths, and crowdsourced crossing-time estimates.
-      - name: Swivics
-        highlights:
-          - Architected the corporate mobility platform in Expo with automated scheduling and recurring ride management.
-          - Designed a resilient background location service that bypasses Android Doze mode and OEM battery optimizations, achieving reliable tracking uptime.
-          - Created smooth map animations via custom coordinate interpolation for driver markers, and resolved Always Allow location permission failures across Samsung, Xiaomi, and Oppo devices.
     skills:
       - label: Mobile Development
         details: React Native, Expo, EAS, React Navigation, Redux, Zustand, Context API, Custom Native Modules, Config Plugins, iOS, Android, Xcode, Android Studio, Push Notifications, Deep Linking
@@ -111,6 +107,15 @@ design:
   theme: engineeringresumes
   templates:
     top_note: "*LAST_UPDATED MONTH_ABBREVIATION DAY, YEAR*"
+    education_entry:
+      main_column: "**DEGREE**, AREA -- INSTITUTION\nSUMMARY\nHIGHLIGHTS"
+      date_and_location_column: |-
+        LOCATION
+        DATE
+      degree_column: null
+    normal_entry:
+      main_column: "**NAME** -- LOCATION\nSUMMARY\nHIGHLIGHTS"
+      date_and_location_column: DATE
   typography:
     line_spacing: 0.4em
   entries:
