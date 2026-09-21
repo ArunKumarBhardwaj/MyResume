@@ -1,0 +1,163 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+cv:
+  name: Arun Kumar Bhardwaj
+  headline: Expo & React Native Developer
+  location: Chandigarh, India
+  email: bhardwajarun38@gmail.com
+  phone: "+918859099380"
+  website: https://arunbhardwaj.vercel.app
+  social_networks:
+    - network: LinkedIn
+      username: arun-kumar-bhardwaj
+  sections:
+    summary:
+      - React Native & Expo Developer with 3.8 years of full-time experience (5 years total including freelance), delivering cross-platform iOS and Android apps with TypeScript, Redux/state management, REST APIs, and CI/CD release pipelines. Strong collaborator who mentors peers, communicates clearly with stakeholders, and owns end-to-end feature delivery from architecture through App Store and Play Store releases.
+    experience:
+      - company: ITechnolabs Software Pvt Ltd.
+        position: Software Engineer
+        start_date: 2024-10
+        end_date: present
+        location: Mohali, Punjab
+        highlights:
+          - Directed cross-platform React Native/Expo feature delivery for iOS and Android, owning UI architecture, navigation, and Redux/state management.
+          - Architected third-party SDK integrations including Stripe payments, Google Maps, real-time chat, and push notifications via REST APIs.
+          - Owned EAS (Expo Application Services) CI/CD build and release pipelines for production iOS and Android deployments.
+          - Resolved critical production bugs and optimized API integrations, sustaining 99.9% crash-free performance across releases.
+      - company: Asterism Advisory
+        position: Freelance Next.js Developer
+        start_date: 2023-05
+        end_date: 2024-09
+        highlights:
+          - Built and deployed a responsive marketing landing page with Next.js, Tailwind CSS, TypeScript, and Vercel.
+          - Incorporated Resend email API with IP-based rate limiting to secure contact forms against spam and bot abuse.
+          - Configured Sanity.io headless CMS for content management and collaborated with stakeholders on UX/content requirements.
+      - company: Veative Labs Pvt. Ltd.
+        position: Software Development Engineer I
+        start_date: 2023-01
+        end_date: 2023-04-07
+        location: Noida, U.P.
+        highlights:
+          - Guided development of an interactive career-readiness EdTech mobile platform helping young learners discover workplace skills.
+          - Engineered real-time video calling with GetStream.io SDK, enabling 1:1 and group virtual learning sessions on React Native.
+          - Partnered directly with clients to translate business requirements into technical specs, driving UI architecture and REST API integration decisions.
+      - company: SheThink Pvt. Ltd.
+        position: React Native Developer
+        start_date: 2021-04
+        end_date: 2022-10
+        location: Indore, M.P.
+        highlights:
+          - Owned end-to-end engineering of multiple client and in-house cross-platform React Native apps for iOS and Android.
+          - Managed full App Store and Play Store release process for 2 client apps, including asset preparation, submission, and deployment governance.
+          - Collaborated with designers and stakeholders on UI/UX implementation, state management, and REST API integrations.
+    projects:
+      - name: WedSuite
+        highlights:
+          - Directed WedSuite wedding planning app with React Native, Expo, and TypeScript for iOS and Android.
+          - Built an AI Assistant using Server-Sent Events (SSE) for real-time streaming, powered by RAG and a Vector DB.
+          - Configured RevenueCat for In-App Purchases (IAP) and subscription plans; delivered budget tracking, guest RSVP, timeline, and calendar sync modules.
+      - name: Mezzo
+        highlights:
+          - Delivered Mezzo, a real-time e-scooter mobility app built with React Native and Expo.
+          - Designed WebSocket connections with Teltonika IoT devices for live scooter telemetry and status tracking.
+          - Built Google Maps live location tracking with route polylines and geofencing; enabled Stripe wallet top-ups, pay-as-you-go payments, and push notifications.
+      - name: POV Social Media App
+        highlights:
+          - Constructed Instagram-like Reels & Stories using HLS video streaming and prefetching for zero-latency playback.
+          - Deployed FFmpeg compression and a background upload service for large media files on React Native.
+          - Incorporated IMGLY SDK for editing, WebSockets for real-time chat, and Firebase (FCM) push notifications.
+      - name: MyDoormat
+        highlights:
+          - Built MyDoormat tenant/landlord apps in React Native, supporting 3 distinct user roles (Tenant, Landlord, Admin).
+          - Enabled real-time chat via Twilio SDK between landlords and tenants.
+          - Configured Branch.io deep linking to automate tenant invitations; set up Stripe-powered automated monthly rent and lease payments.
+      - name: JOBR POS
+        highlights:
+          - Built a multi-role JOBR POS suite (POS, Customer, Driver apps) using React Native for in-store staff and delivery operations.
+          - Deployed Google Maps live driver tracking for real-time dispatch and delivery monitoring.
+          - Set up Stripe for secure in-store checkout and customer payments; designed tab-based navigation for multi-role workflows.
+    skills:
+      - label: Mobile Development
+        details: React Native, Expo, EAS, React Navigation, Redux, Zustand, Context API, Custom Native Modules, Config Plugins, iOS, Android, Xcode, Android Studio, Push Notifications, Deep Linking
+      - label: Languages & Web
+        details: TypeScript, JavaScript, Next.js, React, HTML5, CSS3, Tailwind CSS, Node.js
+      - label: Developer Tools & Testing
+        details: Git, GitHub, pnpm, Bun, Jest, CI/CD, Agile, Scrum
+      - label: Backend & Databases
+        details: REST APIs, GraphQL, Firebase, Supabase, Convex, WebSockets, Stripe
+      - label: Soft Skills
+        details: Mentoring, Collaboration, Communication, Problem Solving, Client Stakeholder Management
+      - label: AI-Assisted Development
+        details: Cursor, Claude Code, GitHub Copilot
+    education:
+      - institution: Graphic Era Deemed to be University
+        area: Computer Applications
+        degree: MCA
+        start_date: 2019
+        end_date: 2021
+        location: Dehradun, Uttarakhand, India
+      - institution: Graphic Era Deemed to be University
+        area: Computer Applications
+        degree: BCA
+        start_date: 2016
+        end_date: 2019
+        location: Dehradun, Uttarakhand, India
+
+design:
+  theme: engineeringresumes
+  templates:
+    top_note: "*LAST_UPDATED MONTH_ABBREVIATION DAY, YEAR*"
+  page:
+    size: us-letter
+    top_margin: 0.25in
+    bottom_margin: 0.25in
+    left_margin: 0.5in
+    right_margin: 0.5in
+    show_footer: false
+    show_top_note: false
+  colors:
+    body: rgb(0, 0, 0)
+    name: rgb(0, 0, 0)
+    headline: rgb(0, 0, 0)
+    connections: rgb(0, 0, 0)
+    section_titles: rgb(0, 0, 0)
+    links: rgb(0, 0, 0)
+    footer: rgb(100, 100, 100)
+  typography:
+    line_spacing: 0.4em
+    alignment: left
+  header:
+    connections:
+      phone_number_format: international
+      show_icons: true
+      display_urls_instead_of_usernames: true
+  sections:
+    allow_page_break: true
+    space_between_regular_entries: 0.8em
+    space_between_text_based_entries: 0.25em
+    show_time_spans_in:
+      - experience
+  entries:
+    date_and_location_width: 4.15cm
+    allow_page_break: false
+    short_second_row: true
+    highlights:
+      bullet: •
+      space_between_items: 0.15em
+locale:
+  language: english
+settings:
+  current_date: today
+  render_command:
+    output_folder: rendercv_output
+    pdf_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.pdf
+    typst_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.typ
+    markdown_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.md
+    html_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.html
+    png_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.png
+    dont_generate_markdown: false
+    dont_generate_html: false
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: false
+  bold_keywords: []
+  pdf_title: NAME - CV

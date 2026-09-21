@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+rendercv_output/*.typ
+rendercv_output/*.html
+rendercv_output/*.md
