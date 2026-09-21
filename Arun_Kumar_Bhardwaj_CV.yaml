@@ -99,23 +99,21 @@ cv:
         degree: MCA
         start_date: 2019
         end_date: 2021
-        location: Dehradun, Uttarakhand, India
+        location: Dehradun, India
       - institution: Graphic Era Deemed to be University
         area: Computer Applications
         degree: BCA
         start_date: 2016
         end_date: 2019
-        location: Dehradun, Uttarakhand, India
+        location: Dehradun, India
 
 design:
   theme: engineeringresumes
   templates:
     top_note: "*LAST_UPDATED MONTH_ABBREVIATION DAY, YEAR*"
     education_entry:
-      main_column: "**DEGREE**, AREA -- INSTITUTION\nSUMMARY\nHIGHLIGHTS"
-      date_and_location_column: |-
-        LOCATION
-        DATE
+      main_column: "**DEGREE**, AREA -- INSTITUTION, LOCATION\nSUMMARY\nHIGHLIGHTS"
+      date_and_location_column: DATE
       degree_column: null
     normal_entry:
       main_column: "**NAME** -- LOCATION\nSUMMARY\nHIGHLIGHTS"
