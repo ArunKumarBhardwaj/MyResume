@@ -108,6 +108,15 @@ design:
     top_note: "*LAST_UPDATED MONTH_ABBREVIATION DAY, YEAR*"
   typography:
     line_spacing: 0.4em
+  entries:
+    highlights:
+      # Fix wrap alignment: keep hanging indent under text, not under the bullet
+      bullet: "•"
+      nested_bullet: "•"
+      space_left: 0.2cm
+      space_above: 0.1cm
+      space_between_items: 0.12cm
+      space_between_bullet_and_text: 0.55em
 locale:
   language: english
 settings:
