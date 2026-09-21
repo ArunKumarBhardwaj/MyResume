@@ -5,8 +5,10 @@ cv:
   location: Chandigarh, India
   email: bhardwajarun38@gmail.com
   phone: "+918859099380"
-  website: https://arunbhardwaj.vercel.app
   custom_connections:
+    - fontawesome_icon: link
+      placeholder: Portfolio
+      url: https://arunbhardwaj.vercel.app
     - fontawesome_icon: linkedin
       placeholder: LinkedIn
       url: https://www.linkedin.com/in/arun-bhardwaj-b1828b210
