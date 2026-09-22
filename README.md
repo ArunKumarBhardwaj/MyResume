@@ -6,10 +6,12 @@ RenderCV takes a YAML input file (`Arun_Kumar_Bhardwaj_CV.yaml`) and generates a
 
 ## Resume PDF
 
-- **[View/Download Resume](https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=drive_link)**: Latest version (Google Drive) — replace `YOUR_FILE_ID` after secrets are set
-- Local PDF: [`rendercv_output/Arun_Kumar_Bhardwaj_CV.pdf`](./rendercv_output/Arun_Kumar_Bhardwaj_CV.pdf)
+Public repo — anyone can open or download:
 
-Auto-update on push to `main` (YAML changes) or manual workflow dispatch: see [`docs/GOOGLE_DRIVE_SETUP.md`](./docs/GOOGLE_DRIVE_SETUP.md).
+- **[View](https://github.com/ArunKumarBhardwaj/MyResume/blob/main/rendercv_output/Arun_Kumar_Bhardwaj_CV.pdf)**
+- **[Download](https://github.com/ArunKumarBhardwaj/MyResume/raw/main/rendercv_output/Arun_Kumar_Bhardwaj_CV.pdf)**
+
+The PDF updates whenever `rendercv_output/` is pushed to `main` (or via the Generate Resume Actions workflow when the YAML changes).
 
 ## Quick Start
 
