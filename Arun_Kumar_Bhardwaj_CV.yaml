@@ -14,7 +14,7 @@ cv:
       url: https://www.linkedin.com/in/arun-bhardwaj-b1828b210
   sections:
     summary:
-      - React Native & Expo Developer with 3.8 years of full-time experience (5 years total including freelance), delivering cross-platform iOS and Android apps with TypeScript, Redux/state management, REST APIs, and CI/CD release pipelines. Strong collaborator who mentors peers, communicates clearly with stakeholders, and owns end-to-end feature delivery from architecture through App Store and Play Store releases.
+      - React Native & Expo Developer with 3 years 10 months of full-time experience (5+ years total including freelance), delivering cross-platform iOS and Android apps with TypeScript, Redux/state management, REST APIs, and CI/CD release pipelines. Strong collaborator who mentors peers, communicates clearly with stakeholders, and owns end-to-end feature delivery from architecture through App Store and Play Store releases.
     experience:
       - company: ITechnolabs Software Pvt Ltd.
         position: Software Engineer
@@ -109,6 +109,9 @@ cv:
 
 design:
   theme: engineeringresumes
+  page:
+    top_margin: 0.4in
+    bottom_margin: 0.4in
   templates:
     top_note: "*LAST_UPDATED MONTH_ABBREVIATION DAY, YEAR*"
     education_entry:
@@ -120,6 +123,11 @@ design:
       date_and_location_column: DATE
   typography:
     line_spacing: 0.4em
+  section_titles:
+    space_above: 0.4cm
+    space_below: 0.25cm
+  sections:
+    space_between_regular_entries: 0.3cm
   entries:
     highlights:
       # Fix wrap alignment: keep hanging indent under text, not under the bullet
@@ -127,7 +135,7 @@ design:
       nested_bullet: "•"
       space_left: 0.2cm
       space_above: 0.1cm
-      space_between_items: 0.12cm
+      space_between_items: 0.08cm
       space_between_bullet_and_text: 0.55em
 locale:
   language: english
